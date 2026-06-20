@@ -21,7 +21,7 @@
 					<div id="intro">
 						<h2>Chengcheng Wu's Portfolio<br />
 						</h2>
-						<p>Hi, welcome to my project portfolio! I'm a data professional with experice working with spatial and non-spatial data using Python, GIS, and other tools.
+						<p>Hi, welcome to my project portfolio! I'm a data professional with experice working with spatial and non-spatial data using Python, GIS, and other data analytics tools.
 						</p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
@@ -49,15 +49,31 @@
 							<!-- Featured Post -->
 							<article class="post featured">
 								<header>
-									<h3><a href="https://github.com/ChengchengWu5/cardio-xai-dashboard/tree/main">1. Cardiovascular Risk Prediction and Explainable Artificial Intelligence (XAI) Dashboard<br />
+									<h3><a href="https://github.com/ChengchengWu5/cardio-xai-dashboard/tree/main">Cardiovascular Risk Prediction and Explainable Artificial Intelligence (XAI) Dashboard<br />
 									</a></h3>
-									<p>This project demonstrates the development of an Explainable Artificial Intelligence (XAI) framework for cardiovascular disease (CVD) risk prediction using 
-										the Cardiovascular Disease Dataset from Kaggle.
-										The project covers the complete machine learning workflow, including data preparation, feature engineering, model development, performance evaluation, 
-										model interpretation, and dashboard deployment. The aim is not only to predict cardiovascular risk but also to provide transparent explanations that help 
-										users understand the factors driving each prediction.</p>
+									<p>This project demonstrates the development of an Explainable Artificial Intelligence (XAI) framework for cardiovascular 
+										disease (CVD) risk prediction using the Cardiovascular Disease Dataset from Kaggle (cardio_train.csv). It compares model 
+										performance using multiple evaluation metrics, apply Explainable AI (XAI) techniques to improve model transparency, 
+										generate both global and patient-level explanations of model predictions, and build an interactive dashboard for 
+										communicating predictions and explanations to different audiences. The project covers the complete machine learning workflow, 
+										including data preparation, feature engineering, model development, performance  evaluation, model interpretation, and dashboard 
+										deployment. The aim is not only to predict cardiovascular risk but also to provide transparent explanations that help users 
+										understand the factors driving each prediction.
+
+										Three supervised machine learning algorithms, Logistic Regression, Random Forest, and Gradient Boosting were applied, evaluated 
+										using accuracy, precision, recall, F1-Score, ROC-AUC, and Confusion Matrix, and compared based on the evaluation results. The 
+										Gradient Boosting model achieved the best overall performance and was selected for explainability analysis and dashboard deployment. 
+										To improve transparency and trustworthiness, SHAP (SHapley Additive exPlanations) was applied to interpret model behaviour at both 
+										global and individual levels. For global explanations, plots of Model Feature Importance, SHAP Global Feature Importance, SHAP Summary 
+										Plot, and SHAP Beeswarm Plot were produced; for local explanations, patient-level waterfall plot, individual risk factor analysis, and 
+										prediction interpretation were provided. The visualisations help users understand how different features contribute to cardiovascular 
+										risk predictions. 
+
+										The final output of the project is an interactive dashboard built using Dash and Plotly (app.py). The dashboard allows different audiences, 
+										such as patients, clinicians, healthcare researchers, and machine learning practitioners to explore cardiovascular risk predictions, 
+										investigate model explanations, compare feature importance, and examine patient-specific risk profiles.</p>
 								</header>
-								<a href="" class="image main"><img src="images/northwind.jpg"alt="" /></a>
+								<a href="" class="image main"><img src="images/cardivascular_prediction_xai.jpg"alt="" /></a>
 								<ul class="actions special">
 									<li><a href="https://github.com/ChengchengWu5/cardio-xai-dashboard/tree/main" class="button large">View Project</a></li>
 								</ul>
@@ -66,18 +82,10 @@
 							<section class="posts">
 								<article>
 									<header>
-										<h3><a href="https://github.com/ChengchengWu5/PortfolioProject_EVHubLocationAnalysis_PowerBI-QGIS" >2. EV Charging Hub Location Analysis Using Power BI and QGIS<br /></a></h3>
+										<h3><a href="https://github.com/ChengchengWu5/PortfolioProject_EVHubLocationAnalysis_PowerBI-QGIS" >Urban Heat Vulnerability Index Dashboard<br /></a></h3>
 									</header>
-									<a href="https://github.com/ChengchengWu5/PortfolioProject_EVHubLocationAnalysis_PowerBI-QGIS"class="image fit"><img src="images/EVcharging.jpg" alt="" /></a>
-									<p>This is a mock proposal for the investment in an EV charging hub for a company’s CEO to make a data-driven 
-										decision on an ideal location for the hub and ensure the appropriate number of EV chargers to be installed 
-										to meet the anticipated customer volume at a tourist attraction or along a motorway. The analyses are 
-										made based on datasets such as annual historical demand data for EVs, traffic data of main roads, 
-										existing number of EV charging devices, fixed costs to build the hub, expected charging costs and sales, 
-										and additional income streams. Apart from the native visuals in Power BI such as the line chart, the 
-										column chart, and the ArcGIS visual, QGIS is used to visualize England by region, the tourist attractions, 
-										main roads, and motorways. Based on the analyses, one tourist attraction and one motorway are recommended 
-										for the CEO to make the final decision.</p>
+									<a href="https://github.com/ChengchengWu5/PortfolioProject_EVHubLocationAnalysis_PowerBI-QGIS"class="image fit"><img src="images/lst_geoxai.jpeg" alt="" /></a>
+									<p>This project aims to develop an urban heat vulnerability index dashboard... </p>
 									<ul class="actions special">
 										<li><a href="https://github.com/ChengchengWu5/PortfolioProject_EVHubLocationAnalysis_PowerBI-QGIS" class="button">View Project</a></li>
 									</ul>
@@ -96,37 +104,6 @@
 										analyzing the relationships between them.</p>
 									<ul class="actions special">
 										<li><a href="https://github.com/ChengchengWu5/PortfolioProject_DataAnalysis_Visualization_SQL-PowerBI-Python" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h3><a href="https://github.com/ChengchengWu5/PortfolioProject_DataAnalysis_Visualization_PowerBI/tree/main">4. Energy Data Analysis and Visualization in Power BI<br /></a></h3>
-									</header>
-									<a href="https://github.com/ChengchengWu5/PortfolioProject_DataAnalysis_Visualization_PowerBI/tree/main" class="image fit"><img src="images/energy.jpeg" alt="" /></a>
-									<p>This project analyzes and visualizes energy consumptions in Power BI. It involves three tables, two of which were added extra colomns
-										by tranforming and combining existing columns to create the primary key so as to create the relationship in the data model. The project then
-										builds a report with visuals for an overview page and extra pages for energy consumptions in more detail by type. For each detailed page, 
-										a table (as a visual) is added, 
-										from which the subdataset can be exported directly. After that, the project creates slices, 
-										page navigators, and a button to clear all slices to make the report more user-friendly and interactive. 
-									</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/ChengchengWu5/PortfolioProject_DataAnalysis_Visualization_PowerBI/tree/main" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h3><a href="https://github.com/ChengchengWu5/PortfolioProject_Excel_DataCleaning_Dashboard/tree/main">5. Bike Sales Data Cleaning and Visualization in Excel <br /></a></h3>
-									</header>
-									<a href="https://github.com/ChengchengWu5/PortfolioProject_Excel_DataCleaning_Dashboard/tree/main" class="image fit"><img src="images/bikes.jpg" alt="" /></a>
-									<p>This project cleans bike purchase data in Excel Power Query and then visualizes the cleaned dataset in Pivot Table before creating a dashboard for visualization. 
-										For data cleaning, it involves 
-										standardizing columns (i.e. the Marital Status, Gender, and Commute Distance columns);
-										adding a column (the Age Range column in this case) which is culculated based on the Age column using the nested IF function; and 
-										handling missing data (e.g. cells with N/a and NaN).
-										For visualization, it creates a Pivot Table to analyze the cleaned dataset and then creates the interactive dashboard with visuals and slices.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/ChengchengWu5/PortfolioProject_Excel_DataCleaning_Dashboard/tree/main" class="button">View Project</a></li>
 									</ul>
 								</article>
 							</section>
