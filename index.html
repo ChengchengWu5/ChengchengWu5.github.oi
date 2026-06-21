@@ -85,7 +85,28 @@
 										<h3><a href="https://github.com/ChengchengWu5/uhvi_geoxai_project/tree/main" >Geospatial Explainable AI (GeoXAI) Project - Urban Heat Vulnerability Index Dashboard<br /></a></h3>
 									</header>
 									<a href="https://github.com/ChengchengWu5/uhvi_geoxai_project/tree/main"class="image fit"><img src="images/lst_geoxai.jpeg" alt="" /></a>
-									<p>This project aims to develop an urban heat vulnerability index dashboard... </p>
+									<p>This project develops a lightweight GeoXAI workflow for assessing Urban Heat Vulnerability Index (UHVI) patterns across Lower Layer Super Output Areas (LSOAs) in Newcastle upon Tyne. 
+										It combines Earth observation, census, deprivation, environmental, and urban morphology indicators to produce a spatial UHVI dataset, explain the drivers of vulnerability using machine 
+										learning and SHAP, test climate adaptation scenarios and intervention priority, and present results through an audience-adaptive dashboard.
+
+										The workflow is implemented across three Jupyter notebooks: 1. `newcastle_uhvi.ipynb` – builds the UHVI dataset; 2. `newcastle_geoxai_analysis.ipynb` – performs machine learning, SHAP 
+										GeoXAI analysis, adaptation scenario testing, and intervention prioritisation; and 3. `newcastle_geoxai_dashboard.ipynb` – creates an interactive audience-adaptive GeoXAI dashboard
+
+                                        The aim is to enerate a Land Surface Temperature (LST) raster for Newcastle upon Tyne using Landsat 8/9 imagery, aggregate heat exposure and explanatory variables to LSOA level, construct 
+										a transparent Urban Heat Vulnerability Index using exposure, sensitivity, and adaptive capacity indicators, use XGBoost regression to model UHVI and identify key drivers, apply SHAP values 
+										to explain both global and local spatial drivers of UHVI, simulate adaptation scenarios such as increasing tree canopy, increasing greenspace, and reducing impervious surfaces, rank LSOAs 
+										by intervention priority, and communicate findings through an audience-adaptive dashboard for residents, urban planners, public health practitioners, and researchers.
+										
+										This project does not simply map heat exposure. It combines spatial heat exposure, population sensitivity, adaptive capacity, and model explainability to identify where heat vulnerability 
+										is highest, why it is high, and which areas may benefit most from adaptation interventions. The GeoXAI component is mainly provided through:
+										
+										- Machine learning modelling of UHVI using XGBoost
+										- Global feature importance analysis
+										- SHAP explanations of model behaviour
+										- Spatial mapping of SHAP values
+										- Local LSOA-level driver explanations
+										- Scenario-based intervention prioritisation
+										- Audience-adaptive explanation design</p>
 									<ul class="actions special">
 										<li><a href="https://github.com/ChengchengWu5/uhvi_geoxai_project/tree/main" class="button">View Project</a></li>
 									</ul>
